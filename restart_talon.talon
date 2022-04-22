@@ -1,0 +1,1 @@
+talon restart: user.talon_relaunch()
