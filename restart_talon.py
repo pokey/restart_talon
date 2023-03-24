@@ -1,6 +1,6 @@
 import os
 
-from talon import Module, app, ui
+from talon import Module, app, ui, actions
 
 mod = Module()
 
@@ -23,5 +23,5 @@ class Actions:
                 ],
                 start_new_session=True,
             )
-            talon_app.appscript().quit(waitreply=False)  # XXX temporary replacement
-        # XXX talon_app.quit() nonfunctional?
+            actions.sleep("100ms")
+            talon_app.quit()
