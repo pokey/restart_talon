@@ -10,5 +10,7 @@ ctx.lists["user.user_file_set"] = {
     "pokey": "core",
     "mouse jay": "core",
     "cursorless": "cursorless",
+    "heads up": "hud",
+    "hud": "hud",
     "all": "all",
 }
