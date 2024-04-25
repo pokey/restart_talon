@@ -11,6 +11,7 @@ ctx.lists["user.user_file_set"] = {
     "mouse jay": "core",
     "cursorless": "cursorless",
     "heads up": "hud",
+    "gpt": "gpt",
     "hud": "hud",
     "all": "all",
 }
